@@ -31,8 +31,9 @@ Install the required dependencies in the virtual environment:
 `pip install -r requirements.txt`
 
 Store your OpenAI API key in a `.env` file:
+Create a '.env' and store your OpenAI API key as shown below:
 
-`echo "OPENAI_API_KEY=YOUR_OPENAI_API_KEY" >> .env`
+`OPENAI_API_KEY=YOUR_OPENAI_API_KEY_HERE`
 
 ### Running the application
 Select one of the sample PDF files to process like so in `vector_store.py` (rename the file path to reflect the desired document):
