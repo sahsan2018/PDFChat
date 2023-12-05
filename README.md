@@ -31,8 +31,6 @@ Install the required dependencies in the virtual environment:
 `pip install -r requirements.txt`
 
 Store your OpenAI API key in a `.env` file:
-Create a '.env' and store your OpenAI API key as shown below:
-
 `OPENAI_API_KEY=YOUR_OPENAI_API_KEY_HERE`
 
 ### Running the application
